@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HotTable msg="Welcome to Your Vue.js App"/>
+    <MainHT msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HotTable from './components/HotTable.vue'
+import MainHT from './components/MainHT.vue'
 
 export default {
   name: 'app',
   components: {
-    HotTable
+    MainHT
   }
 }
 </script>
